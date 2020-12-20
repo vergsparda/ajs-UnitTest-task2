@@ -16,6 +16,7 @@ test('sort charaters1', () => {
   const recieved = sortCharacter(characters);
 
   expect(recieved).toEqual(expected);
+  expect(recieved).not.toBe(expected);
 });
 
 test('sort charaters2', () => {
@@ -34,6 +35,7 @@ test('sort charaters2', () => {
   const recieved = sortCharacter(characters);
 
   expect(recieved).toEqual(expected);
+  expect(recieved).not.toBe(expected);
 });
 
 test('sort charaters3', () => {
@@ -52,4 +54,5 @@ test('sort charaters3', () => {
   const recieved = sortCharacter(characters);
 
   expect(recieved).toEqual(expected);
+  expect(recieved).not.toBe(expected);
 });
